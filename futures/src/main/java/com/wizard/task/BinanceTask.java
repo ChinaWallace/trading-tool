@@ -95,7 +95,7 @@ public class BinanceTask {
 		futureService.fluctuate(logId);
 	}
 
-	@Scheduled(fixedRate = 20000)
+	//@Scheduled(fixedRate = 20000)
 	public void supertrend(){
 		futureService.supertrend(IdWorker.getId());
 		log.info("结束");
